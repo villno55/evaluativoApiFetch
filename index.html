@@ -2,36 +2,35 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Taller Evaluativo</title>
+  <title>Datos de los aprendices</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  <div id="login-contenedor">
+  <div id="login-container">
     <h2>Ingreso a la aplicación</h2>
-    <form id="form-login">
-      <label for="usuario">Usuario:</label>
-      <input type="text" id="usuario" required>
+    <form id="login-form">
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" required>
       
-      <label for="clave">Contraseña:</label>
-      <input type="password" id="clave" required>
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" required>
       
       <button type="submit">Ingresar</button>
     </form>
   </div>
 
-  <div id="app-contenedor" class="hidden">
+  <div id="app-container" class="hidden">
     <header>
-      <h2>Bienvenido, <span id="mostrar-usuario"></span></h2>
-      <button id="btn-salir">Salir</button>
+      <h2>Bienvenido, <span id="user-display"></span></h2>
+      <button id="logout">Salir</button>
     </header>
 
     <section class="filtros">
-      <label for="combo-fichas">Escoge  una ficha:</label>
-      <select id="combo-fichas"></select>
+      <label for="fichas">Elegí una ficha:</label>
+      <select id="fichas"></select>
 
-      <label for="txt-buscar">Busca programa:</label>
-      <input type="text" id="txt-buscar" placeholder="Escribí un programa">
+      <label for="busqueda">Buscar programa:</label>
+      <input type="text" id="busqueda" placeholder="Ingresa un programa">
     </section>
 
     <table id="tabla-aprendices">
@@ -50,7 +49,7 @@
 
   <footer>
     <p>
-      Elaborado por vlacho <br>
+      Elaborado por Anderson Mosquera vega<br>
       Tecnólogo en Análisis y Desarrollo de Software<br>
       Ficha 3064975
     </p>
