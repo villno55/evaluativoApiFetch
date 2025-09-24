@@ -7,6 +7,7 @@ const fichasSelect = document.getElementById("fichas");
 const busquedaInput = document.getElementById("busqueda");
 const tablaBody = document.querySelector("#tabla-aprendices tbody");
 
+
 const API_URL = "https://raw.githubusercontent.com/CesarMCuellarCha/apis/refs/heads/main/SENA-CTPI.matriculados.json";
 let datosGlobal = [];
 
